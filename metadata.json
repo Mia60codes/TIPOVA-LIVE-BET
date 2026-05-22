@@ -1,0 +1,6 @@
+{
+  "name": "Kurtu Odds Marketplace",
+  "description": "Premium Sports Betting Slips & Tips marketplace featuring Tanzanian mobile payments (M-Pesa, Airtel Money, Halopesa) with highly customizable admin editor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
