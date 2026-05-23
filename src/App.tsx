@@ -28,7 +28,7 @@ const DEFAULT_PROFILE: TipsterProfile = {
 
 const DEFAULT_SLIP: BetSlip = {
   id: "slip-kurtu-15",
-  odds: 10.30,
+  odds: 7.00,
   price: 3000,
   validityTime: getFutureValidityTime(),
   betCompanies: ["COLBET", "SportyBet", "Gal Sport Betting", "betPawa", "betway"],
