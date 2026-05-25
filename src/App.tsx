@@ -16,7 +16,7 @@ import { NoActiveTicketCard } from './components/NoActiveTicketCard';
 
 // Helper to calculate countdown equivalent to screenshots
 const getFutureValidityTime = () => {
-  return "2026-05-24T18:30:00+03:00";
+  return "2026-05-25T20:30:00+03:00";
 };
 
 const DEFAULT_PROFILE: TipsterProfile = {
@@ -28,7 +28,7 @@ const DEFAULT_PROFILE: TipsterProfile = {
 
 const DEFAULT_SLIP: BetSlip = {
   id: "slip-kurtu-15",
-  odds: 10.32,
+  odds: 12.11,
   price: 3000,
   validityTime: getFutureValidityTime(),
   betCompanies: ["COLBET", "SportyBet", "Gal Sport Betting", "betPawa", "betway"],
