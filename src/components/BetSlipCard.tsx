@@ -13,7 +13,7 @@ interface BetSlipCardProps {
 }
 
 const countryPrices = [
-  { country: 'Tanzania', flag: '🇹🇿', price: 'Tzs 3,000/=', code: 'TZS' },
+  { country: 'Tanzania', flag: '🇹🇿', price: 'Tzs 5,000/=', code: 'TZS' },
   { country: 'Kenya', flag: '🇰🇪', price: '250 KES', code: 'KES' },
   { country: 'Uganda', flag: '🇺🇬', price: '8,000 UGX', code: 'UGX' },
   { country: 'Ghana', flag: '🇬🇭', price: '40 Cedi', code: 'GHS' },
