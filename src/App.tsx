@@ -16,7 +16,7 @@ import { NoActiveTicketCard } from './components/NoActiveTicketCard';
 
 // Helper to calculate countdown equivalent to screenshots
 const getFutureValidityTime = () => {
-  return "2026-06-10T10:35:00+03:00";
+  return "2026-06-11T10:35:00+03:00";
 };
 
 const DEFAULT_PROFILE: TipsterProfile = {
