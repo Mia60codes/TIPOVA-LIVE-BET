@@ -28,7 +28,7 @@ export const BetSlipCard: React.FC<BetSlipCardProps> = ({ slip }) => {
   const [selectedPrice, setSelectedPrice] = useState(countryPrices[0]);
 
   const handleRedirectToWhatsapp = () => {
-    const phoneNumber = "255794802155";
+    const phoneNumber = "255669847642";
     const message = `Hello, I would like to get this live bet ticket with ${slip.odds.toFixed(2)} odds. My country is ${selectedPrice.country} (Price: ${selectedPrice.price}).`;
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
