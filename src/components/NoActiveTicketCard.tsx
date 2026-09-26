@@ -8,7 +8,7 @@ import { Calendar, MessageSquare, ShieldAlert } from 'lucide-react';
 
 export const NoActiveTicketCard: React.FC = () => {
   const handleContactAdmin = () => {
-    const phoneNumber = "255794802155";
+    const phoneNumber = "255669847642";
     const message = "Hello Admin! I am interested in the next Tipova Live Bet premium ticket. Please notify me once it is active.";
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
