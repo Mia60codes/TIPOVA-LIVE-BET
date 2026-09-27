@@ -13,12 +13,12 @@ interface BetSlipCardProps {
 }
 
 const countryPrices = [
-  { country: 'Tanzania', flag: '🇹🇿', price: 'Tzs 5,000/=', code: 'TZS' },
-  { country: 'Kenya', flag: '🇰🇪', price: '250 KES', code: 'KES' },
-  { country: 'Uganda', flag: '🇺🇬', price: '8,000 UGX', code: 'UGX' },
+  { country: 'Tanzania', flag: '🇹🇿', price: 'Tzs 10,000/=', code: 'TZS' },
+  { country: 'Kenya', flag: '🇰🇪', price: '500 KES', code: 'KES' },
+  { country: 'Uganda', flag: '🇺🇬', price: '2,0000 UGX', code: 'UGX' },
   { country: 'Ghana', flag: '🇬🇭', price: '40 Cedi', code: 'GHS' },
-  { country: 'Nigeria', flag: '🇳🇬', price: '4,000 NGN', code: 'NGN' },
-  { country: 'Other Countries', flag: '🌐', price: '5$', code: 'USD' },
+  { country: 'Nigeria', flag: '🇳🇬', price: '6,500 NGN', code: 'NGN' },
+  { country: 'Other Countries', flag: '🌐', price: '10$', code: 'USD' },
 ];
 
 export const BetSlipCard: React.FC<BetSlipCardProps> = ({ slip }) => {
